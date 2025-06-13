@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Publicación - ChinquiCoast</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="barra-superior">
+        <span>ChinquiCoast</span>
+        <span>Soldi <span class="avatar"><img src="image/iconos/perfil.png" alt="AVATAR"></span></span>
+    </div>
+
+    <div class="contenedor-crear">
+        <h2>Crear Nueva Publicación</h2>
+        <form class="formulario-publicacion">
+            <div class="campo">
+                <label for="descripcion">Descripción</label>
+                <textarea id="descripcion" name="descripcion" rows="4" placeholder="¿Qué quieres compartir?"></textarea>
+            </div>
+
+            <div class="campo">
+                <label for="imagen">Imagen</label>
+                <div class="selector-imagen">
+                    <input type="file" id="imagen" name="imagen" accept="image/*">
+                    <div class="vista-previa"></div>
+                </div>
+            </div>
+
+            <div class="campo">
+                <label for="ubicacion">Ubicación</label>
+                <input type="text" id="ubicacion" name="ubicacion" placeholder="¿Dónde estás?">
+            </div>
+
+            <button type="submit" class="boton-publicar">Publicar</button>
+        </form>
+    </div>
+
+    <div class="navegacion">
+        <a href="inicio.html" class="item">
+            <div class="icono">
+                <img src="image/iconos/inicio.png" alt="Inicio">
+            </div>
+            <span>Inicio</span>
+        </a>
+        <a href="explorar.html" class="item">
+            <div class="icono">
+                <img src="image/iconos/explorar.png" alt="Explorar">
+            </div>
+            <span>Explorar</span>
+        </a>
+        <a href="perfil.html" class="item">
+            <div class="icono">
+                <img src="image/iconos/perfil.png" alt="Perfil">
+            </div>
+            <span>Perfil</span>
+        </a>
+    </div>
+</body>
+</html> 
