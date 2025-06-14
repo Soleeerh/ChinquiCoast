@@ -1,4 +1,4 @@
-#ChinquiCoast
+# ChinquiCoast
 
 Aplicación para monitoreo y limpiezas voluntarias de la costa de chinquihue
 
